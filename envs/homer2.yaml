@@ -1,0 +1,30 @@
+name: homer2
+channels:
+  - conda-forge
+  - r
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - ca-certificates=2024.7.4=hbcca054_0
+  - gettext=0.22.5=he02047a_3
+  - gettext-tools=0.22.5=he02047a_3
+  - homer=4.11=pl5262h4ac6f70_9
+  - libasprintf=0.22.5=he8f35ee_3
+  - libasprintf-devel=0.22.5=he8f35ee_3
+  - libgcc-ng=14.1.0=h77fa898_0
+  - libgettextpo=0.22.5=he02047a_3
+  - libgettextpo-devel=0.22.5=he02047a_3
+  - libgomp=14.1.0=h77fa898_0
+  - libidn2=2.3.7=hd590300_0
+  - libstdcxx-ng=14.1.0=hc0a3c3a_0
+  - libunistring=0.9.10=h7f98852_0
+  - libxcrypt=4.4.36=hd590300_1
+  - libzlib=1.3.1=h4ab18f5_1
+  - openssl=3.3.1=hb9d3cd8_3
+  - perl=5.32.1=7_hd590300_perl5
+  - unzip=6.0=h7f98852_3
+  - wget=1.21.4=hda4d442_0
+  - zlib=1.3.1=h4ab18f5_1
+prefix: /home/chenzonggui/miniconda3/envs/homer2
