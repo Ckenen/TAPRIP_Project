@@ -1,0 +1,13 @@
+name: hg38
+
+tools:
+  bwa: /home/zgchen/miniconda3/envs/CIRIquant_env/bin/bwa
+  hisat2: /home/zgchen/miniconda3/envs/CIRIquant_env/bin/hisat2
+  stringtie: /home/zgchen/miniconda3/envs/CIRIquant_env/bin/stringtie
+  samtools: /home/zgchen/miniconda3/envs/CIRIquant_env/bin/samtools
+
+reference:
+  fasta: /home/zgchen/species/homo_sapiens/GRCh38.p13/GRCh38.canonical.genome.fa
+  gtf: /home/zgchen/species/homo_sapiens/GRCh38.p13/gencode.v39.annotation.sorted.gtf
+  bwa_index: results/3_ciri/1_index/bwa_index/ref
+  hisat_index: results/3_ciri/1_index/hisat2_index/ref

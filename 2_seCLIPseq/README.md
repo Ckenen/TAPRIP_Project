@@ -1,12 +1,11 @@
-Antibody: RMB12
-BCL2
+# Snakemake workflow of seCLIP-seq datasets
 
-Question: RBM12 bind BCL2?
+To run the workflow:
 
-AGGGGGCCGTGGGGTGGGAGCTGGGG
+    snakemake -s 1_SnakePipeline.smk -np
+    snakemake -s 2_SnakePeaks -np
+    snakemake -s 3_SnakeTracks.smk -np
+    snakemake -s 4_SnakeNormPeaks.smk -np
+    snakemake -s 5_SnakeMergePeaks.smk -np
 
-GGGGCCGTGGGGTGGGAGCTGGG
-
-
-sgRNA-XIST-A: target is GGTACACCAGGTGTTTTCAAGGTCTTTTCA (TGAAAAGACCTTGAAAACACCTGGTGTACC)
-sgRNA-XIST-E: target is TCCCACCCATTATACATGAACCCCTCTACT (AGTAGAGGGGTTCATGTATAATGGGTGGGA)
+    

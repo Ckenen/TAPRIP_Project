@@ -1,0 +1,19 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.14083199 Released 2024-11-03
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (101)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+pre-mRNA binding (GO:0036002)	39	4	.19	+	20.90	3.94E-05	2.88E-02
+mRNA 3'-UTR binding (GO:0003730)	111	8	.54	+	14.69	7.40E-08	7.57E-05
+mRNA binding (GO:0003729)	345	15	1.69	+	8.86	1.39E-10	1.77E-07
+RNA binding (GO:0003723)	1675	71	8.22	+	8.64	4.21E-54	2.15E-50
+nucleic acid binding (GO:0003676)	3992	77	19.59	+	3.93	5.50E-35	1.41E-31
+organic cyclic compound binding (GO:0097159)	6018	78	29.53	+	2.64	2.17E-23	3.71E-20
+binding (GO:0005488)	16739	97	82.15	+	1.18	1.74E-05	1.48E-02

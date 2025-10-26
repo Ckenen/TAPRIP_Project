@@ -3,25 +3,11 @@ SAMPLES:
  - 20210720_RNAseq_oeHNRNPK_Rep2
  - 20210720_RNAseq_oeNC_Rep1
  - 20210720_RNAseq_oeNC_Rep2
- - 20210720_RNAseq_siHNRNPK_Rep1
- - 20210720_RNAseq_siHNRNPK_Rep2
- - 20210720_RNAseq_siNC_Rep1
- - 20210720_RNAseq_siNC_Rep2
  - 20210720_circRNAseq_oeHNRNPK_Rep1
  - 20210720_circRNAseq_oeHNRNPK_Rep2
  - 20210720_circRNAseq_oeNC_Rep1
  - 20210720_circRNAseq_oeNC_Rep2
- - 20210720_circRNAseq_siHNRNPK_Rep1
- - 20210720_circRNAseq_siHNRNPK_Rep2
- - 20210720_circRNAseq_siNC_Rep1
- - 20210720_circRNAseq_siNC_Rep2
-RIBO_FASTA: /home/chenzonggui/species/homo_sapiens/ncbi/ribosomal_rna.fasta
-GENOME_FASTA: ../common/ucsc_hg38/hg38.fa
-GENOME_GTF: ../common/ucsc_hg38/knownGene.gtf
-TRANSCRIPT_BED: /home/chenzonggui/species/homo_sapiens/GRCh38.p13/gencode.v39.annotation.transcripts.bed
-TRANSCRIPT_BED_GZ: /home/chenzonggui/species/homo_sapiens/GRCh38.p13/gencode.v39.annotation.transcripts.bed.gz
-ANNOTATION_TSV: /home/chenzonggui/species/homo_sapiens/GRCh38.p13/gencode.v39.annotation.tsv
+FASTA: ../common/ucsc_hg38/hg38.fa
+GTF: ../common/ucsc_hg38/knownGene.gtf
 GENEPRED: ../common/ucsc_hg38/refFlat.txt
-# RIBO_RNA_BT2_INDEX: /home/chenzonggui/species/homo_sapiens/ncbi/bt2_rrna_index
-LAYOUT: PE
-STRANDED: RF
+RIBOSOME: /home/zgchen/species/homo_sapiens/ncbi/ribosomal_rna.fasta

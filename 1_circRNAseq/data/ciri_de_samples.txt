@@ -1,0 +1,4 @@
+CONTROL1 results/3_ciri/3_ciri_quant_rnaser/20210720_RNAseq_oeNC_Rep1/20210720_RNAseq_oeNC_Rep1.gtf C 1
+CONTROL2 results/3_ciri/3_ciri_quant_rnaser/20210720_RNAseq_oeNC_Rep2/20210720_RNAseq_oeNC_Rep2.gtf C 2
+CASE1 results/3_ciri/3_ciri_quant_rnaser/20210720_RNAseq_oeHNRNPK_Rep1/20210720_RNAseq_oeHNRNPK_Rep1.gtf T 1
+CASE2 results/3_ciri/3_ciri_quant_rnaser/20210720_RNAseq_oeHNRNPK_Rep2/20210720_RNAseq_oeHNRNPK_Rep2.gtf T 2

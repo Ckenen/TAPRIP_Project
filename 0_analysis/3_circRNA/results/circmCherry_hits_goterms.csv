@@ -1,0 +1,106 @@
+GO,REFLIST,Upload,Upload_Expected,Over/Under,Fold Enrichment,P-value,FDR,Group
+protein localization to nucleolus (GO:1902570),11,3,0.05,+,55.57,1.84e-05,0.00709,biological process
+sno(s)RNA metabolic process (GO:0016074),16,3,0.08,+,38.21,6.13e-05,0.0209,biological process
+"negative regulation of mRNA splicing, via spliceosome (GO:0048025)",21,3,0.1,+,29.11,0.000143,0.0448,biological process
+negative regulation of telomere maintenance via telomerase (GO:0032211),22,3,0.11,+,27.79,0.000165,0.0468,biological process
+negative regulation of mRNA processing (GO:0050686),22,3,0.11,+,27.79,0.000165,0.0459,biological process
+ribosomal small subunit biogenesis (GO:0042274),107,13,0.53,+,24.76,5.35e-15,3.65e-12,biological process
+rRNA processing (GO:0006364),215,21,1.06,+,19.9,1.1500000000000002e-21,1.08e-18,biological process
+rRNA metabolic process (GO:0016072),250,22,1.23,+,17.93,1.1400000000000001e-21,1.14e-18,biological process
+ribosome biogenesis (GO:0042254),308,26,1.51,+,17.2,4.25e-25,5.33e-22,biological process
+RNA splicing (GO:0008380),375,30,1.84,+,16.3,2.66e-28,4e-25,biological process
+negative regulation of mRNA metabolic process (GO:1903312),100,8,0.49,+,16.3,3.26e-08,1.63e-05,biological process
+"RNA splicing, via transesterification reactions (GO:0000375)",246,19,1.21,+,15.74,1.01e-17,7.96e-15,biological process
+ribosomal large subunit biogenesis (GO:0042273),65,5,0.32,+,15.67,1.69e-05,0.00684,biological process
+maturation of SSU-rRNA (GO:0030490),53,4,0.26,+,15.38,0.000133,0.0425,biological process
+"mRNA splicing, via spliceosome (GO:0000398)",242,18,1.19,+,15.16,1.54e-16,1.15e-13,biological process
+"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)",242,18,1.19,+,15.16,1.54e-16,1.1e-13,biological process
+regulation of telomere maintenance via telomere lengthening (GO:1904356),56,4,0.27,+,14.55,0.000165,0.0477,biological process
+ribonucleoprotein complex biogenesis (GO:0022613),451,32,2.21,+,14.46,1.4e-28,2.34e-25,biological process
+regulation of RNA splicing (GO:0043484),186,13,0.91,+,14.24,7.18e-12,4.32e-09,biological process
+spliceosomal complex assembly (GO:0000245),75,5,0.37,+,13.58,3.39e-05,0.0127,biological process
+negative regulation of mRNA catabolic process (GO:1902373),78,5,0.38,+,13.06,4.1e-05,0.015,biological process
+mRNA processing (GO:0006397),459,29,2.25,+,12.87,2.09e-24,2.42e-21,biological process
+regulation of mRNA processing (GO:0050684),132,8,0.65,+,12.35,2.83e-07,0.000125,biological process
+RNA processing (GO:0006396),870,52,4.27,+,12.18,2.2e-44,3.31e-40,biological process
+negative regulation of RNA catabolic process (GO:1902369),91,5,0.45,+,11.2,8.58e-05,0.028,biological process
+"regulation of mRNA splicing, via spliceosome (GO:0048024)",110,6,0.54,+,11.11,1.71e-05,0.00675,biological process
+protein-RNA complex assembly (GO:0022618),193,10,0.95,+,10.56,3.82e-08,1.85e-05,biological process
+mRNA metabolic process (GO:0016071),613,31,3.01,+,10.3,3.19e-23,3.42e-20,biological process
+protein-RNA complex organization (GO:0071826),202,10,0.99,+,10.09,5.87e-08,2.76e-05,biological process
+regulation of mRNA metabolic process (GO:1903311),304,13,1.49,+,8.71,3.15e-09,1.75e-06,biological process
+RNA biosynthetic process (GO:0032774),1378,58,6.76,+,8.58,1.01e-41,7.6e-38,biological process
+nucleic acid biosynthetic process (GO:0141187),1468,59,7.2,+,8.19,1.89e-41,9.45e-38,biological process
+RNA metabolic process (GO:0016070),1532,59,7.52,+,7.85,2.14e-40,8.04e-37,biological process
+RNA transport (GO:0050658),161,6,0.79,+,7.59,0.000143,0.044,biological process
+nucleic acid transport (GO:0050657),161,6,0.79,+,7.59,0.000143,0.0431,biological process
+RNA localization (GO:0006403),190,7,0.93,+,7.51,4.24e-05,0.0152,biological process
+establishment of RNA localization (GO:0051236),163,6,0.8,+,7.5,0.000153,0.0452,biological process
+nucleobase-containing compound biosynthetic process (GO:0034654),1764,59,8.66,+,6.82,6.160000000000001e-37,1.85e-33,biological process
+nucleic acid metabolic process (GO:0090304),2158,62,10.59,+,5.85,2.0200000000000002e-35,5.050000000000001e-32,biological process
+negative regulation of catabolic process (GO:0009895),360,9,1.77,+,5.09,7.04e-05,0.0235,biological process
+gene expression (GO:0010467),2488,61,12.21,+,5.0,8.93e-31,1.92e-27,biological process
+nucleobase-containing compound metabolic process (GO:0006139),2725,62,13.37,+,4.64,1.4e-29,2.64e-26,biological process
+macromolecule biosynthetic process (GO:0009059),2898,62,14.22,+,4.36,4.58e-28,6.26e-25,biological process
+biosynthetic process (GO:0009058),3957,62,19.42,+,3.19,1.26e-20,1.11e-17,biological process
+cellular component biogenesis (GO:0044085),2759,39,13.54,+,2.88,2.07e-10,1.2e-07,biological process
+protein-containing complex assembly (GO:0065003),1289,17,6.33,+,2.69,0.000169,0.046,biological process
+macromolecule metabolic process (GO:0043170),5395,70,26.48,+,2.64,1.43e-19,1.2e-16,biological process
+primary metabolic process (GO:0044238),6772,70,33.23,+,2.11,1.31e-13,8.56e-11,biological process
+metabolic process (GO:0008152),7632,72,37.46,+,1.92,4.88e-12,3.05e-09,biological process
+cellular component organization or biogenesis (GO:0071840),6231,50,30.58,+,1.64,4.98e-05,0.0174,biological process
+response to stimulus (GO:0050896),8201,18,40.25,-,0.45,3.04e-06,0.00131,biological process
+cellular response to stimulus (GO:0051716),6395,12,31.38,-,0.38,1.14e-05,0.00476,biological process
+signal transduction (GO:0007165),4858,4,23.84,-,0.17,1.03e-07,4.7e-05,biological process
+signaling (GO:0023052),5188,4,25.46,-,0.16,2.29e-08,1.19e-05,biological process
+cell communication (GO:0007154),5232,4,25.68,-,0.16,1.33e-08,7.13e-06,biological process
+pre-mRNA binding (GO:0036002),39,4,0.19,+,20.9,3.94e-05,0.0288,molecular function
+mRNA 3'-UTR binding (GO:0003730),111,8,0.54,+,14.69,7.4e-08,7.57e-05,molecular function
+mRNA binding (GO:0003729),345,15,1.69,+,8.86,1.39e-10,1.77e-07,molecular function
+RNA binding (GO:0003723),1675,71,8.22,+,8.64,4.21e-54,2.15e-50,molecular function
+nucleic acid binding (GO:0003676),3992,77,19.59,+,3.93,5.500000000000001e-35,1.41e-31,molecular function
+organic cyclic compound binding (GO:0097159),6018,78,29.53,+,2.64,2.1699999999999998e-23,3.71e-20,molecular function
+binding (GO:0005488),16739,97,82.15,+,1.18,1.74e-05,0.0148,molecular function
+UTP-C complex (GO:0034456),3,2,0.01,+, > 100,7.13e-05,0.00407,cellular component
+CURI complex (GO:0032545),3,2,0.01,+, > 100,7.13e-05,0.00395,cellular component
+TRAMP complex (GO:0031499),5,2,0.02,+,81.50,0.000236,0.0124,cellular component
+granular component (GO:0001652),7,2,0.03,+,58.22,0.000493,0.0234,cellular component
+90S preribosome (GO:0030686),26,6,0.13,+,47.02,2.56e-09,2.43e-07,cellular component
+small-subunit processome (GO:0032040),73,10,0.36,+,27.91,2.47e-12,2.6e-10,cellular component
+preribosome (GO:0030684),105,14,0.52,+,27.17,1.18e-16,2.13e-14,cellular component
+catalytic step 2 spliceosome (GO:0071013),90,11,0.44,+,24.90,6.87e-13,8.06e-11,cellular component
+U2-type precatalytic spliceosome (GO:0071005),50,5,0.25,+,20.38,4.58e-06,0.000295,cellular component
+spliceosomal complex (GO:0005681),207,20,1.02,+,19.69,1.45e-20,3.22e-18,cellular component
+precatalytic spliceosome (GO:0071011),52,5,0.26,+,19.59,5.58e-06,0.000348,cellular component
+U2-type spliceosomal complex (GO:0005684),95,8,0.47,+,17.16,2.17e-08,1.81e-06,cellular component
+small nuclear ribonucleoprotein complex (GO:0030532),76,6,0.37,+,16.09,1.99e-06,0.000142,cellular component
+Sm-like protein family complex (GO:0120114),87,6,0.43,+,14.05,4.4e-06,0.000293,cellular component
+spliceosomal snRNP complex (GO:0097525),67,4,0.33,+,12.16,0.00033,0.0169,cellular component
+ribonucleoprotein complex (GO:1990904),691,38,3.39,+,11.21,4.48e-30,4.47e-27,cellular component
+nucleolus (GO:0005730),1013,39,4.97,+,7.84,3.8e-25,9.479999999999999e-23,cellular component
+nuclear speck (GO:0016607),414,11,2.03,+,5.41,6e-06,0.000363,cellular component
+nuclear protein-containing complex (GO:0140513),1285,34,6.31,+,5.39,1.08e-16,2.16e-14,cellular component
+nuclear body (GO:0016604),838,16,4.11,+,3.89,3.1e-06,0.000213,cellular component
+nuclear lumen (GO:0031981),4504,81,22.1,+,3.66,1.12e-35,2.2400000000000002e-32,cellular component
+nucleoplasm (GO:0005654),4138,72,20.31,+,3.55,1.33e-28,3.81e-26,cellular component
+organelle lumen (GO:0043233),5659,82,27.77,+,2.95,2.92e-29,1.4600000000000002e-26,cellular component
+intracellular organelle lumen (GO:0070013),5659,82,27.77,+,2.95,2.92e-29,1.17e-26,cellular component
+membrane-enclosed lumen (GO:0031974),5659,82,27.77,+,2.95,2.92e-29,9.710000000000001e-27,cellular component
+chromosome (GO:0005694),1984,28,9.74,+,2.88,1.88e-07,1.39e-05,cellular component
+nucleus (GO:0005634),7626,92,37.43,+,2.46,5.4399999999999995e-30,3.6200000000000004e-27,cellular component
+catalytic complex (GO:1902494),1792,21,8.79,+,2.39,0.000139,0.00751,cellular component
+intracellular membraneless organelle (GO:0043232),5379,61,26.4,+,2.31,4.39e-13,6.26e-11,cellular component
+membraneless organelle (GO:0043228),5380,61,26.4,+,2.31,4.42e-13,5.88e-11,cellular component
+protein-containing complex (GO:0032991),5918,56,29.04,+,1.93,2.52e-08,2.01e-06,cellular component
+intracellular membrane-bounded organelle (GO:0043231),12262,94,60.18,+,1.56,3.13e-14,5.2e-12,cellular component
+intracellular organelle (GO:0043229),13411,97,65.82,+,1.47,7.04e-14,1.08e-11,cellular component
+membrane-bounded organelle (GO:0043227),13333,96,65.43,+,1.47,4.93e-13,6.15e-11,cellular component
+organelle (GO:0043226),14211,98,69.74,+,1.41,1.09e-12,1.2e-10,cellular component
+intracellular anatomical structure (GO:0005622),15056,99,73.89,+,1.34,1.87e-11,1.86e-09,cellular component
+endomembrane system (GO:0012505),4827,10,23.69,-,.42,0.000848,0.0394,cellular component
+membrane (GO:0016020),9775,20,47.97,-,.42,9.45e-09,8.2e-07,cellular component
+plasma membrane (GO:0005886),6002,7,29.46,-,.24,5.9e-08,4.53e-06,cellular component
+cell periphery (GO:0071944),6489,7,31.85,-,.22,4.06e-09,3.68e-07,cellular component
+organelle membrane (GO:0031090),3828,4,18.79,-,.21,2.68e-05,0.00157,cellular component
+cytoplasmic vesicle (GO:0031410),2548,2,12.5,-,.16,0.000368,0.0183,cellular component
+intracellular vesicle (GO:0097708),2556,2,12.54,-,.16,0.00037,0.018,cellular component

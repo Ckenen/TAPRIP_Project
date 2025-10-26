@@ -1,3 +1,19 @@
+common/ucsc_hg38/*
+RepBase
+common/star_hg38_index
+common/star_humrep
+common/uniprotkb
+.snakemake
+ENCODE
+0_analysis/2_xist/data/20240329_Proteomic_XIST_L1.xlsx
+0_analysis/2_xist/data/20240320_Proteomic_XIST_L3.xlsx
+1_circRNAseq/results
+1_circRNAseq/data/datasets
+1_circRNAseq/data/rawdata/
+2_seCLIPseq/data
+2_seCLIPseq/results
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,55 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.14083199 Released 2024-11-03
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (101)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+UTP-C complex (GO:0034456)	3	2	.01	+	 > 100	7.13E-05	4.07E-03
+CURI complex (GO:0032545)	3	2	.01	+	 > 100	7.13E-05	3.95E-03
+TRAMP complex (GO:0031499)	5	2	.02	+	81.50	2.36E-04	1.24E-02
+granular component (GO:0001652)	7	2	.03	+	58.22	4.93E-04	2.34E-02
+90S preribosome (GO:0030686)	26	6	.13	+	47.02	2.56E-09	2.43E-07
+small-subunit processome (GO:0032040)	73	10	.36	+	27.91	2.47E-12	2.60E-10
+preribosome (GO:0030684)	105	14	.52	+	27.17	1.18E-16	2.13E-14
+catalytic step 2 spliceosome (GO:0071013)	90	11	.44	+	24.90	6.87E-13	8.06E-11
+U2-type precatalytic spliceosome (GO:0071005)	50	5	.25	+	20.38	4.58E-06	2.95E-04
+spliceosomal complex (GO:0005681)	207	20	1.02	+	19.69	1.45E-20	3.22E-18
+precatalytic spliceosome (GO:0071011)	52	5	.26	+	19.59	5.58E-06	3.48E-04
+U2-type spliceosomal complex (GO:0005684)	95	8	.47	+	17.16	2.17E-08	1.81E-06
+small nuclear ribonucleoprotein complex (GO:0030532)	76	6	.37	+	16.09	1.99E-06	1.42E-04
+Sm-like protein family complex (GO:0120114)	87	6	.43	+	14.05	4.40E-06	2.93E-04
+spliceosomal snRNP complex (GO:0097525)	67	4	.33	+	12.16	3.30E-04	1.69E-02
+ribonucleoprotein complex (GO:1990904)	691	38	3.39	+	11.21	4.48E-30	4.47E-27
+nucleolus (GO:0005730)	1013	39	4.97	+	7.84	3.80E-25	9.48E-23
+nuclear speck (GO:0016607)	414	11	2.03	+	5.41	6.00E-06	3.63E-04
+nuclear protein-containing complex (GO:0140513)	1285	34	6.31	+	5.39	1.08E-16	2.16E-14
+nuclear body (GO:0016604)	838	16	4.11	+	3.89	3.10E-06	2.13E-04
+nuclear lumen (GO:0031981)	4504	81	22.10	+	3.66	1.12E-35	2.24E-32
+nucleoplasm (GO:0005654)	4138	72	20.31	+	3.55	1.33E-28	3.81E-26
+organelle lumen (GO:0043233)	5659	82	27.77	+	2.95	2.92E-29	1.46E-26
+intracellular organelle lumen (GO:0070013)	5659	82	27.77	+	2.95	2.92E-29	1.17E-26
+membrane-enclosed lumen (GO:0031974)	5659	82	27.77	+	2.95	2.92E-29	9.71E-27
+chromosome (GO:0005694)	1984	28	9.74	+	2.88	1.88E-07	1.39E-05
+nucleus (GO:0005634)	7626	92	37.43	+	2.46	5.44E-30	3.62E-27
+catalytic complex (GO:1902494)	1792	21	8.79	+	2.39	1.39E-04	7.51E-03
+intracellular membraneless organelle (GO:0043232)	5379	61	26.40	+	2.31	4.39E-13	6.26E-11
+membraneless organelle (GO:0043228)	5380	61	26.40	+	2.31	4.42E-13	5.88E-11
+protein-containing complex (GO:0032991)	5918	56	29.04	+	1.93	2.52E-08	2.01E-06
+intracellular membrane-bounded organelle (GO:0043231)	12262	94	60.18	+	1.56	3.13E-14	5.20E-12
+intracellular organelle (GO:0043229)	13411	97	65.82	+	1.47	7.04E-14	1.08E-11
+membrane-bounded organelle (GO:0043227)	13333	96	65.43	+	1.47	4.93E-13	6.15E-11
+organelle (GO:0043226)	14211	98	69.74	+	1.41	1.09E-12	1.20E-10
+intracellular anatomical structure (GO:0005622)	15056	99	73.89	+	1.34	1.87E-11	1.86E-09
+endomembrane system (GO:0012505)	4827	10	23.69	-	.42	8.48E-04	3.94E-02
+membrane (GO:0016020)	9775	20	47.97	-	.42	9.45E-09	8.20E-07
+plasma membrane (GO:0005886)	6002	7	29.46	-	.24	5.90E-08	4.53E-06
+cell periphery (GO:0071944)	6489	7	31.85	-	.22	4.06E-09	3.68E-07
+organelle membrane (GO:0031090)	3828	4	18.79	-	.21	2.68E-05	1.57E-03
+cytoplasmic vesicle (GO:0031410)	2548	2	12.50	-	.16	3.68E-04	1.83E-02
+intracellular vesicle (GO:0097708)	2556	2	12.54	-	.16	3.70E-04	1.80E-02

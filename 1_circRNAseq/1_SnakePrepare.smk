@@ -1,27 +1,28 @@
 #!/usr/bin/env runsnakemake
 configfile: "config.yaml"
 SAMPLES = config["SAMPLES"]
-SAMPLES = ["20210720_circRNAseq_siNC_Rep2"]
 FQDIR = "data/datasets"
-OUTDIR = "results/01_prepare"
+OUTDIR = "results/1_prepare"
 
 rule all:
     input:
-        expand(OUTDIR + "/01_cutadapt/{sample}_R1.fastq.gz", sample=SAMPLES),
-        OUTDIR + "/02_bowtie2_index_ribo/ribo_bt2_index",
-        expand(OUTDIR + "/03_bowtie2_mapping_ribo/{sample}.bam", sample=SAMPLES),
+        expand(OUTDIR + "/1_cutadapt/{sample}_R1.fastq.gz", sample=SAMPLES),
+        OUTDIR + "/2_index/ribo_index",
+        expand(OUTDIR + "/3_bowtie2/{sample}.bam", sample=SAMPLES),
+
+# Preprocessing
 
 rule cutadapt:
     input:
         fq1 = FQDIR + "/{sample}_R1.fastq.gz",
         fq2 = FQDIR + "/{sample}_R2.fastq.gz"
     output:
-        fq1 = OUTDIR + "/01_cutadapt/{sample}_R1.fastq.gz",
-        fq2 = OUTDIR + "/01_cutadapt/{sample}_R2.fastq.gz"
+        fq1 = OUTDIR + "/1_cutadapt/{sample}_R1.fastq.gz",
+        fq2 = OUTDIR + "/1_cutadapt/{sample}_R2.fastq.gz"
     log:
-        OUTDIR + "/01_cutadapt/{sample}.log"
+        OUTDIR + "/1_cutadapt/{sample}.log"
     threads:
-        24
+        12
     conda:
         "cutadapt"
     shell:
@@ -30,44 +31,42 @@ rule cutadapt:
             -o {output.fq1} -p {output.fq2} {input.fq1} {input.fq2} &> {log}
         """
 
-rule bowtie2_build_ribo:
+rule bowtie2_build:
     input:
-        fa = config["RIBO_FASTA"]
+        fa = config["RIBOSOME"]
     output:
-        idx = directory(OUTDIR + "/02_bowtie2_index_ribo/ribo_bt2_index")
+        out = directory(OUTDIR + "/2_index/ribo_index")
     log:
-        OUTDIR + "/02_bowtie2_index_ribo/ribo_bt2_index.log"
+        OUTDIR + "/2_index/ribo_index.log"
+    threads:
+        4
     conda:
-        "tophat2"
+        "bowtie2"
     shell:
         """
-        mkdir -p {output.idx}
-        bowtie2-build --threads {threads} {input.fa} {output.idx}/ref &> {log}
+        mkdir -p {output.out}
+        bowtie2-build --threads {threads} {input.fa} {output.out}/ref &> {log}
         """
 
-rule bowtie2_mapping_ribo:
+rule bowtie2:
     input:
         fq1 = rules.cutadapt.output.fq1,
         fq2 = rules.cutadapt.output.fq2,
-        idx = rules.bowtie2_build_ribo.output.idx
+        idx = rules.bowtie2_build.output.out,
     output:
-        bam = OUTDIR + "/03_bowtie2_mapping_ribo/{sample}.bam",
-        fq1 = OUTDIR + "/03_bowtie2_mapping_ribo/{sample}.unmapped.fastq.1.gz",
-        fq2 = OUTDIR + "/03_bowtie2_mapping_ribo/{sample}.unmapped.fastq.2.gz"
+        bam = OUTDIR + "/3_bowtie2/{sample}.bam",
+        bai = OUTDIR + "/3_bowtie2/{sample}.bam.bai",
+        fq1 = OUTDIR + "/3_bowtie2/{sample}.unmapped.fastq.1.gz",
+        fq2 = OUTDIR + "/3_bowtie2/{sample}.unmapped.fastq.2.gz",
     log:
-        OUTDIR + "/03_bowtie2_mapping_ribo/{sample}.log"
-    conda:
-        "tophat2"
+        OUTDIR + "/3_bowtie2/{sample}.log"
     params:
-        prefix = OUTDIR + "/03_bowtie2_mapping_ribo/{sample}"
+        prefix = OUTDIR + "/3_bowtie2/{sample}"
     threads:
-        24
+        12
+    conda:
+        "bowtie2"
     shell:
-        """(
-        bowtie2 -p {threads} --local --no-unal --un-conc-gz {params.prefix}.unmapped.fastq.gz \
-            -x {input.idx}/ref -1 {input.fq1} -2 {input.fq2} \
-            | samtools view -@ {threads} -u - \
-            | samtools sort -@ {threads} -T {params.prefix}_TMP - > {output.bam}
-        samtools index -@ {threads} {output.bam} ) &> {log}
         """
-
+        ./scripts/bowtie2_keep_unmapped_fastq_pe.sh {input} {threads} {params.prefix} &> {log}
+        """
