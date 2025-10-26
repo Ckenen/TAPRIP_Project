@@ -11,5 +11,6 @@ Source code of TAPRIP project.
     star (2.7.9a)
     samtools (1.19.2)
     seqkit ()
-
+    homer2 (4.11)
+    tophat (2.1.0)
     clipper (docker iamge: brianyee/clipper:65d6490)
